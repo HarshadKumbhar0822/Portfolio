@@ -3,7 +3,7 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.svg'
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='hero' className='hero'>
       <img src={profile_img} alt="" />
       <h1><span>I,m Harshad Kumbhar,</span>Fullstack Blockchain Developer</h1>
       <p>I am MERN Stack Developer from Maharashtra, INDIA with MCA degree as Fresher</p>
