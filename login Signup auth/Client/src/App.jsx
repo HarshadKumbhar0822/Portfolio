@@ -9,8 +9,9 @@ function App() {
   return (
   <>
     <Navbar />
-    <Route path='/' element={<Home />} />
     
+    <Route path='/' element={<Home />} />
+
   </>
   )
 }
