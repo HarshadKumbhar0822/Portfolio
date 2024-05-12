@@ -10,6 +10,7 @@ function App() {
   <>
     <Navbar />
     <Route path='/' element={<Home />} />
+    
   </>
   )
 }
